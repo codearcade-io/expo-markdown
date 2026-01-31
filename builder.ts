@@ -6,10 +6,17 @@ const defaultBuildConfig: BuildConfig = {
   entrypoints,
   outdir: "./dist",
   target: "browser",
-  minify: true,
-  sourcemap: "external",
   format: "esm",
-  external: ["react", "react-native", "expo-clipboard", "expo"],
+  minify: true,
+  external: [
+    "react",
+    "react-native",
+    "expo-clipboard",
+    "expo",
+    "node:module",
+    "markdown-it",
+    "react-native-webview",
+  ],
 };
 
 await Bun.build(defaultBuildConfig);

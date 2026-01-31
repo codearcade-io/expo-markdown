@@ -58,9 +58,9 @@ console.log("Hello from CodeArcade!");
 
 export default function App() {
   return (
-    <div style={{ flex: 1 }}>
+    <View style={{ flex: 1 }}>
       <Markdown content={markdown} />
-    </div>
+    </View>
   );
 }
 ```
