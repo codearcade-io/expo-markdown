@@ -1,7 +1,7 @@
 {
   "name": "@codearcade/expo-markdown",
   "type": "module",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "license": "MIT",
@@ -51,7 +51,7 @@
   },
   "peerDependencies": {
     "expo": ">=52.0.0",
-    "expo-clipboard": ">=8.0.0",
+    "expo-clipboard": ">=6.0.0",
     "react": ">=18.0.0",
     "react-native": ">=0.72.0",
     "react-native-webview": ">=13.0.0"
