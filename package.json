@@ -1,6 +1,6 @@
 {
   "name": "@codearcade/expo-markdown",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Markdown component to render markdown in expo with syntax highlighting and styling",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
